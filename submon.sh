@@ -15,7 +15,7 @@ echo "$banner"
 
 DOMAINS_FILE="domains.txt"
 OUTPUT_DIR="submon_data"
-WEBHOOK="https://discord.com/api/webhooks/1387407734319878144/Oxr2ducwj83dcC-Sq1_f3udCwIg8QZZsL052sPgYYnn3-OutXUnXLZR2e4nmQw9FaGLH"  # Reemplazá por tu webhook real
+WEBHOOK="WEBHOOK URL"  # Reemplazá por tu webhook real
 
 mkdir -p "$OUTPUT_DIR"
 
