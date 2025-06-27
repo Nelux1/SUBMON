@@ -34,7 +34,7 @@ You can install them via package managers like `apt`, `brew`, or from their GitH
 
 ## 📁 File Structure
 
-- `submon3.sh` → The main script
+- `submon.sh` → The main script
 - `domains.txt` → A text file with one root domain per line
 - `submon_data/` → Output directory (auto-created)
 
@@ -42,7 +42,7 @@ You can install them via package managers like `apt`, `brew`, or from their GitH
 
 ## 📥 Setup
 
-1. **Edit `submon3.sh` and set your webhook:**
+1. **Edit `submon.sh` and set your webhook:**
 
 WEBHOOK="https://discord.com/api/webhooks/..."
 
@@ -54,7 +54,7 @@ WEBHOOK="https://hooks.slack.com/services/..."
 2. **Make the script executable:**
 
 ```bash
-chmod +x submon3.sh
+chmod +x submon.sh
 ```
 
 3. **Add your target domains to `domains.txt`:**
@@ -72,7 +72,7 @@ anotherdomain.net
 Run the script manually:
 
 ```bash
-./submon3.sh
+./submon.sh
 ```
 
 The script will:
@@ -95,7 +95,7 @@ crontab -e
 Add:
 
 ```bash
-@daily /path/to/submon3.sh
+@daily /path/to/submon.sh
 ```
 
 ---
